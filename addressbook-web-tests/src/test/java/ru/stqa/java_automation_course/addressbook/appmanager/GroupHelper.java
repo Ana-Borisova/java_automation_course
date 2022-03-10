@@ -7,9 +7,9 @@ import ru.stqa.java_automation_course.addressbook.model.GroupData;
 
 public class GroupHelper {
 
-  public FirefoxDriver wd;
+  public WebDriver wd;
 
-  public GroupHelper(FirefoxDriver wd) {
+  public GroupHelper(WebDriver wd) {
     this.wd = wd;
   }
 
